@@ -1,0 +1,16 @@
+(footprint "SSD1306_128x64OLEDCUTOUT" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "klor1_2.kicad_sch")
+  (property "Sheetname" "")
+  (attr through_hole)
+  (fp_text reference "OLED1" (at 19.47911 -6.645) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4fadc45b-dd9b-4bef-93ad-92b5b22d247e)
+  )
+  (fp_text value "SSD1306" (at 20.53211 -8.269) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 85bea5bd-e004-451c-af74-8d018ffd7b9b)
+  )
+  (fp_rect (start 13.4 -9) (end -13 7.6)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp ca1fc525-6ab4-425c-8b7a-9306b017efc8))
+)
